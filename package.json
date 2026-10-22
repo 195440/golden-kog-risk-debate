@@ -1,0 +1,15 @@
+{
+  "name": "golden-kog-risk-debate",
+  "version": "1.0.0",
+  "description": "Two sided token structure risk debate (sound advocate, fragile advocate, reviewer) for Golden Kog. Risk only, never a trading view.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types --test test/debate.test.ts",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "license": "MIT"
+}
